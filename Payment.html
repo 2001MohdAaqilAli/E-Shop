@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products -e-SHOP</title>
+    <link rel="stylesheet" href="product.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="Ecommerce.html"><img src="1_1,-transparent-bg-+-shadow-designify (1).png" href="Ecommerce.html" width="200px"></a>
+                    </div>
+                <nav>
+                    <ul>
+                        <li><a href="Ecommerce.html ">HOME</a></li>
+                        <li><a href="Product.html">PRODUCT</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="">CONTACT</a></li>
+                        <li><a href="Account.html">ACCOUNT</a></li>
+                    </ul>
+                </nav>
+                <a href="Cart.html"><img src="cart.png" width="30px" height="30px"></a>
+            </div>
+            
+            
+        </div>
+        <!---Account---->
+        <div class="container">
+
+            <form action="">
+        
+                <div class="row">
+        
+                    <div class="col">
+        
+                        <h3 class="title">Billing address</h3>
+        
+                        <div class="inputBox">
+                            <span>Full Name :</span>
+                            <input type="text" placeholder="">
+                        </div>
+                        <div class="inputBox">
+                            <span>Email :</span>
+                            <input type="email" placeholder="">
+                        </div>
+                        <div class="inputBox">
+                            <span>Address :</span>
+                            <input type="text" placeholder="">
+                        </div>
+                        <div class="inputBox">
+                            <span>City :</span>
+                            <input type="text" placeholder="">
+                        </div>
+        
+                        <div class="flex">
+                            <div class="inputBox">
+                                <span>State :</span>
+                                <input type="text" placeholder="">
+                            </div>
+                            <div class="inputBox">
+                                <span>Pin Code :</span>
+                                <input type="text" placeholder="">
+                            </div>
+                        </div>
+                        <h4 align="center"><a href="https://designmodo.com/wp-content/uploads/2016/05/8-Add-to-Cart-by-Sabartism.gif" class="btn">Proceed for Cash on Delivery </a></h4>
+                        
+
+
+        
+                    </div>
+                </div>
+            </form>
+
+           
+
+        </div>
+        <div class="container">
+
+            <form action="">
+        
+                <div class="row">
+        
+                    <div class="col">
+        
+                        <h3 class="title">UPI</h3>
+                        <div class="inputBox">
+                            <span>UPI Id :</span>
+                            <input type="text" placeholder="">
+                        </div>
+                        <h4 align="center"><a href="https://designmodo.com/wp-content/uploads/2016/05/8-Add-to-Cart-by-Sabartism.gif" class="btn">Order Now </a></h4>
+                        <h3 class="title">Card</h3>
+                        <div class="inputBox">
+                            <span>Card Type:</span>
+                            <select name="card_type" id="card_type" required>
+                                <option value="">--Select a Card Type--</option>
+                                <option value="Visa">Visa</option>
+                                <option value="Rupay">Rupay</option>
+                                <option value="Mastercard">Mastercard</option>
+                    
+                            </select>
+                        </div>
+                        <br>
+                        
+                        <div class="inputBox">
+                            <span>Card Number :</span>
+                            <input type="number" placeholder="">
+                        </div>
+                        <div class="inputBox">
+                            <span>Exp Month :</span>
+                            <input type="date">                        
+                        </div>
+                        <div class="inputBox">
+                                <span>CVV :</span>
+                                <input type="password" placeholder="">
+                        </div>
+
+                    </div>
+            
+                </div>
+        
+            </form>
+            <h4 align="center"><a href="https://designmodo.com/wp-content/uploads/2016/05/8-Add-to-Cart-by-Sabartism.gif" class="btn">Order Now</a></h4>
+
+        
+        </div> 
+           
+        
+        <!---Footer--->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and ios mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="play-store.png">
+                            <img src="app-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="landscape,-white-bg,-no-shadow-designify.png">
+                        <p>e-Shop mission statement is to “serve consumers through online and physical stores and focus on selection, price, and convenience.” </p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Help</h3>
+                        <ul>
+                            <li>Payment</li>
+                            <li>Shipping</li>
+                            <li>Cancellation & Returns</li>
+                            <li>FAQ</li>
+                            <li>Report Infringement</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                            <h3>Follow Us</h3>
+                            <ul>
+                                <li>FACEBOOK</li>
+                                <li>INSTAGRAM</li>
+                                <li> TWITTER</li>
+                                <li>LINKEDIN</li>
+                                <li>MAIL US Infringement</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <p align="right">*Made by Rajiv Raj *</p>
+        </div>
+        <script>
+            var LoginForm = document.getElementById("LoginForm");
+            var RegForm = document.getElementById("RegForm");
+            var Indicator = document.getElementById("Indicator");
+                function register(){
+                    RegForm.style.transform = "translateX(0px)";
+                    LoginForm.style.transform = "translateX(0px)";
+                    Indicator.style.transform = "translateX(100px)";
+                }
+                function login(){
+                    RegForm.style.transform = "translateX(300px)";
+                    LoginForm.style.transform = "translateX(300px)";
+                    Indicator.style.transform = "translateX(0px)";
+                }
+        </script>
+       
+    </body>
+    </html>
